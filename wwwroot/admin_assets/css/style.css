@@ -1,0 +1,122 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --bg-primary: #fff;
+    --bg-light-blue: #dff5fa;
+    --bg-dark-blue: #016C7E;
+    --bg-blue: #15adcc;
+    --blue-accent: #097687;
+    --text-primary: #667580;
+    --text-white: #fff;
+    --text-black: #000;
+    --boder-color: #F4F4F4;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Roboto Mono", monospace;
+}
+
+.main-menu {
+    position: fixed;
+    height: 100%;
+    width: 230px;
+    background-color: var(--bg-primary);
+    color: var(--blue-accent);
+    border-right: 1px solid var( --boder-color);
+}
+
+.menu-header {
+    background-color: var(--bg-primary);
+    padding: 20px;
+    position: fixed;
+    width: 230px;
+    z-index: 10;
+    border-right: 1px solid var( --boder-color);
+    border-bottom: 1px solid var( --boder-color);
+}
+
+.menu-header a {
+    text-decoration: none;
+    color: var(--blue-accent);
+    text-align: left;
+}
+
+.fa-bars {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 1.33em;
+}
+
+.dark {
+    color: #000 !important;
+}
+
+.menu-body{
+    margin-top: 90px;
+    overflow: auto;
+    height: calc(100% - 70px);
+}
+
+.main-menu ul {
+    padding-left: 0;
+}
+
+.main-menu ul li {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 1rem;
+    text-align: left;
+    list-style: none;
+}
+
+.main-menu ul li:hover {
+    background-color: var(--bg-light-blue);
+}
+
+.main-menu ul li:focus {
+    background-color: var(--bg-light-blue);
+}
+
+.main-menu ul li a {
+    color: var(--blue-accent);
+    display: block;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    text-align: left;
+    font-size: 14px;
+}
+
+.menu-link-text {
+    padding-top: 5px;
+}
+
+.icon-background {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: var(--bg-light-blue);
+    border-radius: 50%;
+}
+
+.icon-background .icon {
+    margin-top: 5px;
+}
+
+.page-menu .main-menu ul li a.menu-link .fa {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
