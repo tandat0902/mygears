@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\admin_assets\js\" />
     <Folder Include="wwwroot\admin_assets\images\" />
     <Folder Include="wwwroot\assets\" />
   </ItemGroup>

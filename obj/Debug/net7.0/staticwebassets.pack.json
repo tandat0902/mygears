@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\admin_assets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\admin\\OneDrive\\iprojects\\ibackend\\asp.net\\mygears_project\\mygears\\wwwroot\\admin_assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin_assets\\js\\main.js"
+    },
+    {
       "Id": "C:\\Users\\admin\\OneDrive\\iprojects\\ibackend\\asp.net\\mygears_project\\mygears\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Bbeyg2ulnlDYy9K73tmn/6i4ehH8cdxl335wxxMNjQ0=",
+  "Hash": "WJT/EEX6pBs4iQdY1nOw1wgBsWzhREJDRsc/viQjjQE=",
   "Source": "mygears",
   "BasePath": "_content/mygears",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin_assets\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\admin\\OneDrive\\iprojects\\ibackend\\asp.net\\mygears_project\\mygears\\wwwroot\\admin_assets\\js\\main.js",
+      "SourceId": "mygears",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin\\OneDrive\\iprojects\\ibackend\\asp.net\\mygears_project\\mygears\\wwwroot\\",
+      "BasePath": "_content/mygears",
+      "RelativePath": "admin_assets/js/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin_assets\\js\\main.js"
     },
     {
       "Identity": "C:\\Users\\admin\\OneDrive\\iprojects\\ibackend\\asp.net\\mygears_project\\mygears\\wwwroot\\css\\site.css",

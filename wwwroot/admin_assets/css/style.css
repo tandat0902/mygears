@@ -48,17 +48,24 @@ body {
     text-align: left;
 }
 
-.fa-bars {
+.bg-bars {
+    background-color: var(--bg-dark-blue);
     position: absolute;
-    right: 10px;
-    top: 40px;
+    right: -18px;
+    top: 25px;
     z-index: 100;
     cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 6px 2px 6px 8px;
+}
+
+.fa-bars {
     font-size: 1.33em;
 }
 
-.dark {
-    color: #000 !important;
+.light {
+    color: var(--bg-light-blue) !important;
 }
 
 .menu-body{
@@ -72,29 +79,27 @@ body {
 }
 
 .main-menu ul li {
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 1rem;
+    margin: 0 10px 3px 10px;
     text-align: left;
     list-style: none;
 }
 
-.main-menu ul li:hover {
-    background-color: var(--bg-light-blue);
-}
-
-.main-menu ul li:focus {
-    background-color: var(--bg-light-blue);
-}
-
 .main-menu ul li a {
     color: var(--blue-accent);
+    padding: 10px 0px 10px .5rem;
     display: block;
     cursor: pointer;
     position: relative;
     text-decoration: none;
     text-align: left;
     font-size: 14px;
+    transition: ease-in-out .4s;
+}
+
+.main-menu ul li a:hover,
+.main-menu ul li a:focus {
+    background-color: var(--bg-light-blue);
+    border-radius: 7px;
 }
 
 .menu-link-text {
@@ -115,8 +120,32 @@ body {
     margin-top: 5px;
 }
 
-.page-menu .main-menu ul li a.menu-link .fa {
+.icon-dropdown {
     position: absolute;
     right: 20px;
-    top: 5px;
+    transition: ease-in-out .4s;
+}
+
+.child-menu{
+    display: none;
+}
+
+.child-menu.show {
+    display: block;
+}
+
+.child-menu a span {
+    font-size: 13px;
+}
+
+.child-menu a span {
+    padding: 10px 0px 5px 0px !important;
+}
+
+.child-menu li {
+    margin: 0 !important;
+}
+
+.circle-size{
+    font-size: 7px;
 }
